@@ -7,4 +7,11 @@ void main(List<String> args) {
   Square obj_square1 = new Square(latitude: 2.2);
   Square obj_square2 = new Square(latitude: 5);
   print(obj_square1.circumference());
+  print(obj_square2.circumference());
+  print(obj_square1.area());
+  print(obj_square2.area());
+  print(obj_circle1.circumference());
+  print(obj_circle2.circumference());
+  print(obj_circle1.area());
+  print(obj_circle2.area());
 }
