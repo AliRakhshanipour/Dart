@@ -36,8 +36,14 @@ void nextStep({required String username}) {
   );
 }
 
-void reporter({required String username, required String firstname, required String lastname, String? email = "no email", int? phone = 0}) {
-  print("Report: Firstname:$firstname --- Lastname:$lastname --- Email:$email --- Phone:$phone ");
+void reporter(
+    {required String username,
+    required String firstname,
+    required String lastname,
+    String? email = "no email",
+    int? phone = 0}) {
+  print(
+      "Report: Firstname:$firstname --- Lastname:$lastname --- Email:$email --- Phone:$phone ");
   print("GoodLuck\nFinished!");
 }
 

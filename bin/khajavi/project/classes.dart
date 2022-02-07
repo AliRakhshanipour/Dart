@@ -40,3 +40,23 @@ class Square implements Shape {
     return latitude * 4;
   }
 }
+
+class Triangle implements Shape {
+  var side1;
+  var side2;
+  var side3;
+  var height;
+  bool isSidesEqual;
+  Triangle(
+      {required this.side1,
+      required this.side2,
+      required this.side3,
+      required this.height,
+      required this.isSidesEqual});
+  @override
+  double area() => side1 + side2 + side3;
+  @override
+  double circumference() {
+    return 0.5 * (side3 * height);
+  }
+}
